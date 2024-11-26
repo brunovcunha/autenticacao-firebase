@@ -1,5 +1,8 @@
 {
   "expo": {
+    "plugins": [
+      "@react-native-google-signin/google-signin"
+    ],
     "name": "autenticacao-firebase",
     "slug": "autenticacao-firebase",
     "version": "1.0.0",
@@ -19,7 +22,9 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "googleServicesFile": "./google-services.json",
+      "package": "com.anonymous.autenticacaofirebase"
     },
     "web": {
       "favicon": "./assets/favicon.png"
